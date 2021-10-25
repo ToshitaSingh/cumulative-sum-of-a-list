@@ -1,13 +1,12 @@
 # Python code to get the Cumulative sum of a list 
-def Cumulative(lists): 
-    cu_list = [] 
-    length = len(lists) 
-    cu_list = [sum(lists[0 + 1]) for x in range(0, length)] 
-    return cu_list 
+lists = [10, 20, 30, 40, 50]  
+cu_list = [] 
+a=0
+for i in range(0,len(lists)):
+    a+=lists[a]
+    cu_list.append(a)
   
-# Driver Code 
-lists = [10, 20, 30, 40, 50] 
-print (Cumulative(lists))
+print(Cu_list)
 
 # browser based vs code environment with github (.)
 # press period (.) key on any repository
